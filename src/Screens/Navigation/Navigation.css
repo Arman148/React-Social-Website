@@ -1,0 +1,41 @@
+.Navigation {
+    /*background-image: url(../../images/back3.jpg);
+    background-repeat: repeat-y;
+    background-size: 100%;*/
+    height: auto;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: rgba(0, 0, 0, 0.568);
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    padding-top: 2px;
+    padding-bottom: 4px;
+    box-shadow: 1px 3px 8px rgba(31, 31, 31, 0.582);
+}
+
+.header-btn {
+    margin-left: 0px;
+    background-color: rgba(255, 255, 255, 0.435);
+    border: 0.5px;
+    border-left: 1px solid rgba(8, 8, 8, 0.424);
+}
+
+.header-btn :active {
+    width: 200px;
+    height: 100px;
+}
+
+.right {
+    width: 150px;
+    margin-right: 3px;
+    border-bottom-right-radius: 20px;
+}
+
+.left {
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
